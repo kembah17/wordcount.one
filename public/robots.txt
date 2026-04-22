@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://wordcount.one
+
+# Sitemaps
+Sitemap: https://wordcount.one/sitemap.xml
