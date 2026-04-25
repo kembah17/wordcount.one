@@ -87,7 +87,7 @@ export default function CharacterCounter() {
                 {stats.sortedFreq.map(([ch, count]) => (
                   <tr key={ch} className="border-t border-border-light">
                     <td className="px-4 py-2 font-mono text-primary font-bold">
-                      {ch === ' ' ? '\u2423' : ch}
+                      {ch === ' ' ? '␣' : ch}
                     </td>
                     <td className="px-4 py-2 text-text">{count}</td>
                     <td className="px-4 py-2 text-text-light">
