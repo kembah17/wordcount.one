@@ -2,13 +2,13 @@ import Link from 'next/link';
 import AdSlot from '@/components/ui/AdSlot';
 
 const tools = [
-  { name: 'Word Counter', href: '/word-counter' },
-  { name: 'Character Counter', href: '/character-counter' },
-  { name: 'Sentence Counter', href: '/sentence-counter' },
-  { name: 'Paragraph Counter', href: '/paragraph-counter' },
-  { name: 'Reading Time Estimator', href: '/reading-time-estimator' },
-  { name: 'Keyword Density Checker', href: '/keyword-density-checker' },
-  { name: 'Text Statistics', href: '/text-statistics' },
+  { name: 'Word Counter', href: '/word-counter', icon: '📝' },
+  { name: 'Character Counter', href: '/character-counter', icon: '🔤' },
+  { name: 'Sentence Counter', href: '/sentence-counter', icon: '📄' },
+  { name: 'Paragraph Counter', href: '/paragraph-counter', icon: '📑' },
+  { name: 'Reading Time Estimator', href: '/reading-time-estimator', icon: '⏱️' },
+  { name: 'Keyword Density Checker', href: '/keyword-density-checker', icon: '🔍' },
+  { name: 'Text Statistics', href: '/text-statistics', icon: '📊' },
 ];
 
 export default function Footer() {
@@ -29,7 +29,7 @@ export default function Footer() {
               {tools.map(tool => (
                 <li key={tool.href}>
                   <Link href={tool.href} className="text-sm transition-colors" style={{ color: 'var(--color-footer-muted)' }}>
-                    {tool.name}
+                    {tool.icon} {tool.name}
                   </Link>
                 </li>
               ))}
