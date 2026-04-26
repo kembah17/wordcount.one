@@ -39,11 +39,13 @@ export default function Header() {
   return (
     <header className="bg-surface border-b border-border shadow-sm sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 font-bold text-xl text-primary">
-          <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+        <Link href="/" className="flex items-center gap-2" style={{ textDecoration: 'none' }}>
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="36" height="36" rx="8" fill="var(--color-primary)"/>
+            <text x="18" y="15" textAnchor="middle" fill="white" fontSize="10" fontWeight="700" fontFamily="system-ui">123</text>
+            <text x="18" y="27" textAnchor="middle" fill="white" fontSize="10" fontWeight="700" fontFamily="system-ui">abc</text>
           </svg>
-          WordCount<span className="text-text">.one</span>
+          <span style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--color-text-heading)' }}>wordcount<span style={{ color: 'var(--color-primary)' }}>.one</span></span>
         </Link>
 
         <div className="flex items-center gap-3">
@@ -52,7 +54,7 @@ export default function Header() {
               <Link
                 key={tool.href}
                 href={tool.href}
-                className="px-3 py-1.5 text-sm text-text-light hover:text-primary hover:bg-primary-light rounded-md transition-colors"
+                className="px-3 py-1.5 text-sm text-text-light hover:text-primary hover:bg-primary-light rounded-md transition-colors" style={{ fontWeight: 600 }}
               >
                 {tool.name}
               </Link>

@@ -11,21 +11,21 @@ export const metadata: Metadata = {
   ...(gscVerification && { verification: { google: gscVerification } }),
   metadataBase: new URL('https://wordcount.one'),
   title: {
-    default: 'WordCount.one — Free Online Word Counter & Text Analysis Tools',
-    template: '%s | WordCount.one',
+    default: 'wordcount.one — Free Online Word Counter & Text Analysis Tools',
+    template: '%s | wordcount.one',
   },
   description: 'Free online word counter and text analysis tools. Count words, characters, sentences, paragraphs, estimate reading time, check keyword density, and analyze text statistics. 100% client-side processing.',
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://wordcount.one',
-    siteName: 'WordCount.one',
-    title: 'WordCount.one — Free Online Word Counter & Text Analysis Tools',
+    siteName: 'wordcount.one',
+    title: 'wordcount.one — Free Online Word Counter & Text Analysis Tools',
     description: 'Free online word counter and text analysis tools. Count words, characters, sentences, paragraphs, and more. Privacy-first — all processing happens in your browser.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'WordCount.one — Free Online Word Counter & Text Analysis Tools',
+    title: 'wordcount.one — Free Online Word Counter & Text Analysis Tools',
     description: 'Free online word counter and text analysis tools. Privacy-first — all processing happens in your browser.',
   },
   robots: {
