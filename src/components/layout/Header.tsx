@@ -45,7 +45,7 @@ export default function Header() {
             <text x="18" y="15" textAnchor="middle" fill="white" fontSize="10" fontWeight="700" fontFamily="system-ui">123</text>
             <text x="18" y="27" textAnchor="middle" fill="white" fontSize="10" fontWeight="700" fontFamily="system-ui">abc</text>
           </svg>
-          <span style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--color-text-heading)' }}>wordcount<span style={{ color: 'var(--color-primary)' }}>.one</span></span>
+          <span style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--color-text-heading)' }}>wordcount<span style={{ color: 'var(--color-text-heading)' }}>.one</span></span>
         </Link>
 
         <div className="flex items-center gap-3">
