@@ -22,6 +22,7 @@ export const metadata: Metadata = {
     siteName: 'wordcount.one',
     title: 'wordcount.one — Free Online Word Counter & Text Analysis Tools',
     description: 'Free online word counter and text analysis tools. Count words, characters, sentences, paragraphs, and more. Privacy-first — all processing happens in your browser.',
+    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'Word Count' }],
   },
   twitter: {
     card: 'summary_large_image',
