@@ -9,7 +9,7 @@ const gscVerification = process.env.NEXT_PUBLIC_GSC_VERIFICATION;
 
 export const metadata: Metadata = {
   ...(gscVerification && { verification: { google: gscVerification } }),
-  metadataBase: new URL('https://wordcount.one'),
+  metadataBase: new URL('https://www.wordcount.one'),
   title: {
     default: 'wordcount.one — Free Online Word Counter & Text Analysis Tools',
     template: '%s | wordcount.one',
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://wordcount.one',
+    url: 'https://www.wordcount.one',
     siteName: 'wordcount.one',
     title: 'wordcount.one — Free Online Word Counter & Text Analysis Tools',
     description: 'Free online word counter and text analysis tools. Count words, characters, sentences, paragraphs, and more. Privacy-first — all processing happens in your browser.',
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: 'https://wordcount.one',
+    canonical: 'https://www.wordcount.one',
   },
 };
 

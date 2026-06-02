@@ -8,11 +8,11 @@ import RelatedTools from '@/components/ui/RelatedTools';
 export const metadata: Metadata = {
   title: 'Paragraph Counter — Count Paragraphs & Analyze Structure Online Free',
   description: 'Free online paragraph counter. Count paragraphs, analyze words per paragraph, average paragraph length, and visualize text structure in real time.',
-  alternates: { canonical: 'https://wordcount.one/paragraph-counter' },
+  alternates: { canonical: 'https://www.wordcount.one/paragraph-counter' },
   openGraph: {
     title: 'Paragraph Counter — Count Paragraphs & Analyze Structure Online Free',
     description: 'Free online paragraph counter with structure analysis. Count paragraphs, words per paragraph, and visualize text breakdown.',
-    url: 'https://wordcount.one/paragraph-counter',
+    url: 'https://www.wordcount.one/paragraph-counter',
   },
 };
 

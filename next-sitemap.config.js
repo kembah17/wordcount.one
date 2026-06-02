@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://wordcount.one',
+  siteUrl: 'https://www.wordcount.one',
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   outDir: './out',

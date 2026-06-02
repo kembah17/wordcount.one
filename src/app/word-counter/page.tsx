@@ -8,11 +8,11 @@ import RelatedTools from '@/components/ui/RelatedTools';
 export const metadata: Metadata = {
   title: 'Word Counter — Count Words, Characters & Sentences Online Free',
   description: 'Free online word counter tool. Count words, characters, sentences, paragraphs, reading time, and speaking time in real time. No sign-up required.',
-  alternates: { canonical: 'https://wordcount.one/word-counter' },
+  alternates: { canonical: 'https://www.wordcount.one/word-counter' },
   openGraph: {
     title: 'Word Counter — Count Words, Characters & Sentences Online Free',
     description: 'Free online word counter tool. Count words, characters, sentences, paragraphs, reading time, and speaking time in real time.',
-    url: 'https://wordcount.one/word-counter',
+    url: 'https://www.wordcount.one/word-counter',
   },
 };
 

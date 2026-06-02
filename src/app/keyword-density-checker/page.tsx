@@ -8,11 +8,11 @@ import RelatedTools from '@/components/ui/RelatedTools';
 export const metadata: Metadata = {
   title: 'Keyword Density Checker — Analyze Keyword Frequency & SEO Online Free',
   description: 'Free online keyword density checker. Analyze keyword frequency, density percentage, top keywords, n-gram phrases, and stop word filtering for SEO optimization.',
-  alternates: { canonical: 'https://wordcount.one/keyword-density-checker' },
+  alternates: { canonical: 'https://www.wordcount.one/keyword-density-checker' },
   openGraph: {
     title: 'Keyword Density Checker — Analyze Keyword Frequency & SEO Online Free',
     description: 'Free online keyword density analyzer with n-gram support. Find top keywords, density percentages, and optimize for SEO.',
-    url: 'https://wordcount.one/keyword-density-checker',
+    url: 'https://www.wordcount.one/keyword-density-checker',
   },
 };
 

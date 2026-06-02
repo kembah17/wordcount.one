@@ -3,11 +3,11 @@ export default function WebSiteSchema() {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'WordCount.one',
-    url: 'https://wordcount.one',
+    url: 'https://www.wordcount.one',
     description: 'Free online word counting and text analysis tools. Count words, characters, sentences, paragraphs, and more — all in your browser.',
     potentialAction: {
       '@type': 'SearchAction',
-      target: 'https://wordcount.one/?q={search_term_string}',
+      target: 'https://www.wordcount.one/?q={search_term_string}',
       'query-input': 'required name=search_term_string',
     },
   };

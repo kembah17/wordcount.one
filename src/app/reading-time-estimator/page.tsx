@@ -8,11 +8,11 @@ import RelatedTools from '@/components/ui/RelatedTools';
 export const metadata: Metadata = {
   title: 'Reading Time Estimator — Calculate Reading Time & Readability Online Free',
   description: 'Free online reading time estimator. Calculate reading time at different speeds, speaking time, Flesch-Kincaid readability score, and grade level in real time.',
-  alternates: { canonical: 'https://wordcount.one/reading-time-estimator' },
+  alternates: { canonical: 'https://www.wordcount.one/reading-time-estimator' },
   openGraph: {
     title: 'Reading Time Estimator — Calculate Reading Time & Readability Online Free',
     description: 'Free online reading time calculator with readability analysis. Estimate reading time at slow, average, and fast speeds.',
-    url: 'https://wordcount.one/reading-time-estimator',
+    url: 'https://www.wordcount.one/reading-time-estimator',
   },
 };
 

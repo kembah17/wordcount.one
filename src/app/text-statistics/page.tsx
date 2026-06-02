@@ -8,11 +8,11 @@ import RelatedTools from '@/components/ui/RelatedTools';
 export const metadata: Metadata = {
   title: 'Text Statistics — Comprehensive Text Analysis & Readability Scores Online Free',
   description: 'Free online text statistics tool. Get comprehensive analysis with readability scores (Flesch-Kincaid, Gunning Fog, Coleman-Liau, SMOG), vocabulary richness, and text complexity.',
-  alternates: { canonical: 'https://wordcount.one/text-statistics' },
+  alternates: { canonical: 'https://www.wordcount.one/text-statistics' },
   openGraph: {
     title: 'Text Statistics — Comprehensive Text Analysis & Readability Scores Online Free',
     description: 'Free comprehensive text analysis with 4 readability scores, vocabulary richness metrics, and detailed text statistics.',
-    url: 'https://wordcount.one/text-statistics',
+    url: 'https://www.wordcount.one/text-statistics',
   },
 };
 

@@ -8,11 +8,11 @@ import RelatedTools from '@/components/ui/RelatedTools';
 export const metadata: Metadata = {
   title: 'Character Counter — Count Characters, Letters & Digits Online Free',
   description: 'Free online character counter. Count characters with and without spaces, letters, digits, special characters, and see character frequency analysis in real time.',
-  alternates: { canonical: 'https://wordcount.one/character-counter' },
+  alternates: { canonical: 'https://www.wordcount.one/character-counter' },
   openGraph: {
     title: 'Character Counter — Count Characters, Letters & Digits Online Free',
     description: 'Free online character counter with frequency analysis. Count characters, letters, digits, and special characters in real time.',
-    url: 'https://wordcount.one/character-counter',
+    url: 'https://www.wordcount.one/character-counter',
   },
 };
 
