@@ -28,7 +28,7 @@ export default function HomePage() {
           <Link
             href="/word-counter"
             className="inline-flex items-center gap-2 px-8 py-3 rounded-lg transition-colors font-medium text-lg"
-            style={{ backgroundColor: 'var(--color-primary)', color: 'var(--color-primary-text)' }}
+            style={{ backgroundColor: 'var(--color-primary)', color: '#FFFFFF' }}
           >
             Start Counting
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
