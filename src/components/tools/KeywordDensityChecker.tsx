@@ -89,7 +89,7 @@ export default function KeywordDensityChecker() {
                 onClick={() => setNgramSize(n)}
                 className={`px-3 py-1.5 text-sm rounded-md transition-colors ${
                   ngramSize === n
-                    ? 'bg-primary text-primary-text'
+                    ? 'bg-primary text-primary-text dark:text-white'
                     : 'bg-surface border border-border text-text-light hover:bg-surface-alt'
                 }`}
               >
@@ -107,7 +107,7 @@ export default function KeywordDensityChecker() {
                 onClick={() => setShowCount(n)}
                 className={`px-3 py-1.5 text-sm rounded-md transition-colors ${
                   showCount === n
-                    ? 'bg-primary text-primary-text'
+                    ? 'bg-primary text-primary-text dark:text-white'
                     : 'bg-surface border border-border text-text-light hover:bg-surface-alt'
                 }`}
               >
