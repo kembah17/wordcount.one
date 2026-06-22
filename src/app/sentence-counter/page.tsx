@@ -8,11 +8,11 @@ import RelatedTools from '@/components/ui/RelatedTools';
 export const metadata: Metadata = {
   title: 'Sentence Counter — Count Sentences & Analyze Complexity Online Free',
   description: 'Free online sentence counter. Count sentences, analyze average sentence length, find longest and shortest sentences, and assess sentence complexity in real time.',
-  alternates: { canonical: 'https://www.wordcount.one/sentence-counter' },
+  alternates: { canonical: 'https://wordcount.one/sentence-counter' },
   openGraph: {
     title: 'Sentence Counter — Count Sentences & Analyze Complexity Online Free',
     description: 'Free online sentence counter with complexity analysis. Count sentences, find longest/shortest, and analyze writing structure.',
-    url: 'https://www.wordcount.one/sentence-counter',
+    url: 'https://wordcount.one/sentence-counter',
   },
 };
 

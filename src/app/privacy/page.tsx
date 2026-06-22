@@ -4,7 +4,7 @@ import AdSlot from '@/components/ui/AdSlot';
 export const metadata: Metadata = {
   title: 'Privacy Policy — WordCount.one',
   description: 'Privacy policy for WordCount.one. All text processing happens in your browser. We do not collect, store, or transmit your text data.',
-  alternates: { canonical: 'https://www.wordcount.one/privacy' },
+  alternates: { canonical: 'https://wordcount.one/privacy' },
 };
 
 export default function PrivacyPage() {
